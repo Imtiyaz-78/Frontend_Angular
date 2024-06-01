@@ -1,0 +1,23 @@
+
+
+<=======================> Bismillah <===================>
+
+
+===> Boostrap menas: file ko connect karti hai main.ts and load karti hai main.ts file 
+===> main.ts: .html file ke under angular ki puri app.. ko load karne ki responsibility hoti hai
+
+===> Angular.json:  ye angular ki configuration file hoti hai like pahle koun sa page load karna hai
+                    ya user ko dikhana hai by default index.html file load hoti hai you can change it.
+
+
+===> tsconfig.json:      Ye hamari global wali file ki configuration hoti .
+===> tsconfig.app.json:  Ye Hamari application wali file ki configuration hoti hai 
+===> tsconfig.spec.json: Ye hamari testing wali file ki configuration hoti hai 
+===> karma.config.js:    Ye file jab hamari app.. ban jati hai toh testing ke liye kaam aati hai
+===> polyfills.ts :      koee browser or aapka output ajeeb aarha hai or aapko support karwana hai toh write inside
+                         iss file ke under kuchh extra liberary wagairah load kar detey hai support karwane ke liye 
+
+.editorconfig: ye editor ki configuration karta hai like ek space diya, ek tab press kiya
+               and after usko format kiye toh wo kitna space liya ye sab ki configuration karta hai
+               kitna space aana chahiye after format.
+

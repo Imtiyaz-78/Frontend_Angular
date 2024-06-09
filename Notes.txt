@@ -21,4 +21,23 @@
                and after usko format kiye toh wo kitna space liya ye sab ki configuration karta hai
                kitna space aana chahiye after format.
 
-kskks
+
+==> what is interpulation:
+      To display the dynamic data on web page called interpulation.
+      syantax: {{}}
+      
+      We can do airthmetic operation, any operation we can do inside this:
+      Ex: {{8 + 6}}
+
+      These thing we can not doing inside interpulation given:
+        1. we can not update the value inside interpulation
+             Ex:  <h2>{{title = " new "}}</h2> <=== wrong.
+
+        2. we can not check typeOf
+            Ex: <h2>{{typeOf title}}</h2>    
+        
+        3. we can do increment and decrement thing inside interpulation:
+             Ex:  <h2>{{data++}}</h2> <=== Througing error
+        
+        3. new keyword not work inside interpulation:
+             Ex:  <h2>{{new title}}</h2> <=== Througing error 

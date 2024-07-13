@@ -14,7 +14,9 @@
 ===> tsconfig.app.json:  Ye Hamari application wali file ki configuration hoti hai 
 ===> tsconfig.spec.json: Ye hamari testing wali file ki configuration hoti hai 
 ===> karma.config.js:    Ye file jab hamari app.. ban jati hai toh testing ke liye kaam aati hai
-===> polyfills.ts :      koee browser or aapka output ajeeb aarha hai or aapko support karwana hai toh write inside
+===> polyfills.ts :      koee browser or aapka output ajeeb aarha hai or aapko support karwana
+                         hai toh write inside this.
+                        
                          iss file ke under kuchh extra liberary wagairah load kar detey hai support karwane ke liye 
 
 .editorconfig: ye editor ki configuration karta hai like ek space diya, ek tab press kiya
@@ -31,13 +33,36 @@
 
       These thing we can not doing inside interpulation given:
         1. we can not update the value inside interpulation
-             Ex:  <h2>{{title = " new "}}</h2> <=== wrong.
+             Ex:  <h2> {{title = " new "}} </h2> <=== This is wrong way.
 
         2. we can not check typeOf
-            Ex: <h2>{{typeOf title}}</h2>    
+            Ex: <h2> {{typeOf title}} </h2>    
         
         3. we can do increment and decrement thing inside interpulation:
-             Ex:  <h2>{{data++}}</h2> <=== Througing error
+             Ex:  <h2> {{data++}} </h2> <=== Througing error not work Inc++ and dec--
         
         3. new keyword not work inside interpulation:
-             Ex:  <h2>{{new title}}</h2> <=== Througing error 
+             Ex:  <h2> {{new title}} </h2> <=== Througing error 
+        
+        4. Assignment operator not work
+
+
+
+====> Angular CLI & Important Commands(v.v.i)
+      Links: https://v17.angular.io/cli/generate#component-command
+
+
+===> Comppnent in Angular:
+       1. What is component: component is a peace of code like signIn Page, LogeIn, Header, navBar
+       2. How we can make a component
+       3. How to use component
+
+
+      1. Generate component(Folder): 
+         ng generate component LogeIn
+         or ng g c login
+     
+     2. Generate module(collection of component) Like , login page, signIn page, forget Page
+        ng generate module user-auth
+        or ng g m user-auth
+

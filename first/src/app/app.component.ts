@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
@@ -12,4 +13,8 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'first';
   data = '18';
+
+  getValue(){
+    return "This is function data ";
+  }
 }

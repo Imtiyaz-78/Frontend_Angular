@@ -66,3 +66,15 @@
         ng generate module user-auth
         or ng g m user-auth
 
+        Module => (LoginPage, Logoutpage, Register Page, Forget Page)
+     
+     ==> How to generate component inside Module:
+         Ex: ng g c user-auth/sign-in
+
+     4. Generate Class:
+        Ex: ng generate class login
+            or ng g cl login     
+     
+     5. Generate interface:
+        Ex: ng generate interface demoInterface
+            or ng g i demo-interface

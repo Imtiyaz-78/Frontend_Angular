@@ -52,7 +52,7 @@
       Links: https://v17.angular.io/cli/generate#component-command
 
 
-===> Comppnent in Angular:
+===> What Comppnent in Angular:
        1. What is component: component is a peace of code like signIn Page, LogeIn, Header, navBar
        2. How we can make a component
        3. How to use component
